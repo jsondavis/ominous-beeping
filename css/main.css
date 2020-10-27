@@ -4,6 +4,8 @@ body {
 
 html,
 .fullscreen {
+  background: #f4b559;
+  color: #300f02;
   display: flex;
   height: 100%;
   margin: 0;
@@ -18,4 +20,19 @@ html,
 
 .title {
   font-size: 3rem;
+}
+
+#thebutton {
+  border-radius: 4px;
+  background-color: #f4511e; 
+  border: 1px solid rgba(0, 0, 0, .65);  
+  color: #fff;  
+  cursor: pointer;  
+  display: inline-block;
+  font-size: 28px;  
+  margin: 5px;
+  padding: 20px;  
+  text-align: center;
+  transition: all 0.5s;  
+  width: 200px;  
 }
