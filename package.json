@@ -11,7 +11,7 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "build": "npm-run-all build:dir build:markup build:js build:css",
+    "build": "npm-run-all clean build:dir build:markup build:js build:css",
     "build:dir": "mkdir -p ./build",
     "build:markup": "cp ./src/index.html ./build/",
     "build:js": "npm run build:appjs && npm run build:swjs",
