@@ -19,6 +19,7 @@
     "build:swjs": "cp -r ./src/sw.js ./build/",
     "build:css": "cp -r ./src/css ./build/",
     "clean": "rimraf build",
+    "dev": "npx http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
